@@ -1,0 +1,19 @@
+{
+  "name": "ndx-connect",
+  "version": "0.0.1",
+  "description": "connect to an ndx-framework server",
+  "main": "build/app.js",
+  "scripts": {
+    "test": "node build/test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ndxbxrme/ndx-connect.git"
+  },
+  "author": "ndxbxrme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndxbxrme/ndx-connect/issues"
+  },
+  "homepage": "https://github.com/ndxbxrme/ndx-connect"
+}
