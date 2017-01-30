@@ -16,5 +16,4 @@ module.exports = (ndx) ->
       output = ndx.database.exec sql, props, notCritical
       res.json output
     else
-      res.json
-        error: 'bad command'
+      throw 'bad command'

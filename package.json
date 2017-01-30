@@ -1,6 +1,6 @@
 {
   "name": "ndx-connect",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "connect to an ndx-framework server",
   "main": "build/app.js",
   "scripts": {

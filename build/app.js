@@ -21,9 +21,7 @@
         output = ndx.database.exec(sql, props, notCritical);
         return res.json(output);
       } else {
-        return res.json({
-          error: 'bad command'
-        });
+        throw 'bad command';
       }
     });
   };
